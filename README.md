@@ -1,6 +1,6 @@
 <div align="center">
 <h1>My BlogLO</h1>
-  Website → [https://leostruka.github.io/]
+  Website → [https://leostruka.github.io/Blog]
 
 Bem-vindo ao meu projeto pessoal de desenvolvimento de software!
 Neste projeto, compartilharei minha jornada de aprendizado em programação e engenharia de software, abrangendo uma ampla gama de tópicos, desde conceitos fundamentais até abordagens avançadas.
