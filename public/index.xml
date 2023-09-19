@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My BlogLO</title>
+    <link>https://Leostruka.github.io/</link>
+    <description>Recent content on My BlogLO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Aug 2023 14:15:43 -0300</lastBuildDate><atom:link href="https://Leostruka.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://Leostruka.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 19 Aug 2023 14:15:43 -0300</pubDate>
+      
+      <guid>https://Leostruka.github.io/posts/my-first-post/</guid>
+      <description>Bem-vindo(a) ao meu blog sobre programação e desenvolvimento de software! No meu blog, vou compartilhar com vocês tudo o que estou aprendendo sobre programação e desenvolvimento de software, desde conceitos básicos até tópicos mais avançados, com foco especial na Engenharia de Software.
+Você encontrará artigos sobre conceitos fundamentais de programação, projetos práticos, tópicos avançados em programação, metodologias de desenvolvimento, gerenciamento de projetos, práticas de codificação, design de software e integração e entrega contínua.</description>
+    </item>
+    
+  </channel>
+</rss>
