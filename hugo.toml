@@ -1,0 +1,30 @@
+baseURL = 'https://Leostruka.github.io/'
+languageCode = 'en-us'
+title = 'My BlogLO'
+theme = "paper"
+
+disqusShortname = 'Leostruka'   # use disqus comments
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'Leostruka'               # twitter.com/Leostruka
+  github = 'Leostruka'                 # github.com/Leostruka
+  instagram = 'Leostruka'           # instagram.com/Leostruka
+  linkedin = 'leostruka'             # https://www.linkedin.com/in/leostruka/
+  rss = true                                # show rss icon
+
+  # home page profile
+  avatar = 'https://avatars.githubusercontent.com/u/81370685?v=4'                 # gravatar email or image url
+  name = 'Leandro ostruka'
+  bio = 'I am a software engineering student, currently working as a designer and model.'
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  gravatarCdn = 'C:\faculdade\Git\Implementacao\Blog\resources\_gen\images\LO.jpg'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  math = true                               # enable KaTex math typesetting globally
