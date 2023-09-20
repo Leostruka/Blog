@@ -50,8 +50,17 @@ Se deseja contribuir para este projeto, siga estas etapas:
 5. Abra um pull request no repositório original.
 
 # Funcionamento do GitHub Actions
-- fluxo de trabalho aciona quando ocorre um push no repositório
-- Ele realiza algumas verificações
-- Em seguida, usa o Hugo para construir o site estático.
-
-A implanta automaticamente o site não ocorre por aqui, por conta de estar sendo hospédado em outro repositorio: https://github.com/Leostruka/Leostruka.github.io.git
+- O fluxo de trabalho é acionado por um push na branch "master" ou manualmente através da ação "workflow_dispatch".
+- Define permissões de leitura de conteúdo, escrita em páginas e escrita de token de identificação.
+- Gerencia a concorrência no grupo "pages" sem cancelar execuções em andamento.
+- Configura o shell padrão como "bash".
+## Job "build" (Construção)
+- Executa na máquina com Ubuntu mais recente.
+- Instala o Hugo CLI, o Dart Sass e realiza o checkout do repositório.
+- Configura as páginas e instala as dependências do Node.js.
+- Usa o Hugo para construir o site estático com otimizações.
+- Faz upload dos arquivos gerados como um artefato.
+## Job "deploy" (Implantação)
+- Implanta as páginas no GitHub Pages.
+- Define um ambiente chamado "github-pages" com uma URL baseada na saída do job anterior.
+- Este job é executado após o job "build" ser concluído.
