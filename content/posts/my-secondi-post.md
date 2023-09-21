@@ -3,7 +3,7 @@ title: 'Como Instalar o Hugo'
 date: 2023-09-20T10:30:00-03:00
 ---
 
-## Tutorial sobre a instalação do Hugo (Simplificado)!
+## Tutorial sobre a instalação do ![Texto Hugo](https://i.postimg.cc/C1vpvWvB/Hugo.png) (Simplificado)!
 
 Neste tutorial, vou guiar você pelo processo de instalação do Hugo, uma poderosa estrutura de geração de sites estáticos, que inclusive ajudou a gerar este site.
 O Hugo é uma ferramenta popular entre desenvolvedores web e blogueiros devido à sua simplicidade e eficiência na criação de sites rápidos e altamente personalizáveis.
