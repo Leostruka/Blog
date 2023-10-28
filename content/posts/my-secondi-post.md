@@ -23,7 +23,7 @@ O Hugo é uma ótima escolha para criar blogs, sites pessoais e até mesmo sites
 Antes de instalar o Hugo, certifique-se de que você tenha os seguintes pré-requisitos:
 
 1. **Go (Golang):** O Hugo é desenvolvido em Go e requer que o Go esteja instalado em seu sistema. Você pode baixar e instalar o Go a partir do site oficial em [golang.org](https://golang.org/). Verifique a instalação do Go executando o comando:
-
+```go -v```
 
 ### Como Instalar o Hugo
 
